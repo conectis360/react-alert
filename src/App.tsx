@@ -5,7 +5,9 @@ import { Alert } from "./Alert.tsx";
 function App() {
   return (
     <div className="App">
-      <Alert heading="Success">Everything is really good!</Alert>
+      <Alert heading="Success" closable>
+        Everything is really good!
+      </Alert>
     </div>
   );
 }

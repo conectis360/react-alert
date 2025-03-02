@@ -26,6 +26,7 @@ export function Alert({
       onClose();
     }
   }
+
   return (
     <div>
       <div>
